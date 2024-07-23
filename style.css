@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     line-height: 1.6;
 }
 
@@ -82,7 +82,7 @@ img {
 .imagen_redonda {
     width: 100%;
     max-width: 200px; 
-    height: auto;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     object-fit: cover;
