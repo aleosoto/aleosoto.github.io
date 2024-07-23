@@ -10,9 +10,9 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #6495ED;
     color: #fff;
-    text-align: left;
+    text-align: center;
     padding: 1rem 0;
 }
 
@@ -63,7 +63,7 @@ ul li {
 }
 
 footer {
-    background: #333;
+    background: rgb(18, 34, 90);
     color: #fff;
     text-align: center;
     padding: 1rem 0;
