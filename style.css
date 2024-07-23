@@ -1,9 +1,80 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
 
 header{
-    background-color: rgba(167, 192, 227, 0.325);
-    color:black;
+    background-color: #333;
+    color:#fff;
     text-align: left;
-    
+    padding: 1rem 0;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+.proyecto {
+    margin-bottom: 2rem;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
 }
