@@ -15,7 +15,9 @@ header {
     text-align: center;
     padding: 1rem 0;
 }
-
+nav{
+    color: #333;
+}
 nav :hover{
     color:  #fff;
 }
@@ -43,6 +45,13 @@ section {
 
 h1, h2, h3 {
     text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p, ul, ol {
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
