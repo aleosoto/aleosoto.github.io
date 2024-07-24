@@ -16,6 +16,10 @@ header {
     padding: 1rem 0;
 }
 
+nav :hover{
+    color:  #fff;
+}
+
 nav ul {
     list-style: none;
     text-align: center;
@@ -27,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
 }
 
@@ -48,7 +52,6 @@ ul {
 
 ul li {
     margin-bottom: 0.5rem;
-    font-weight: bold;
 }
 
 .proyecto {
@@ -89,3 +92,5 @@ img {
     display: block;
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
+
+
